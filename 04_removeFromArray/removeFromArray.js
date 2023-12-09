@@ -12,6 +12,8 @@ for (i; i > 0; i-- ){
 }
 
 console.log(functionArray);
+functionArray.splice(numToPop-1,1);
+console.log(functionArray);
 return functionArray;
 // let i = inputValues.length;
 // for (i; i > 0; i--){
